@@ -1,4 +1,6 @@
-1) 5 websites with aspects that you either like or dislike (such as good or poor layout, presentation of or overload of  information, easy or hard to navigate, loads quickly or slowly considering the data on the page, fun or frustrating, flashy or boring, cute or dreadful, great or poor interactivity, whatever else you might think of!)
+1) 5 websites with aspects that you either like or dislike (such as good or poor layout, presentation of or overload of  information, easy or hard to navigate, 
+loads quickly or slowly considering the data on the page, fun or frustrating, flashy or boring, cute or dreadful, great or poor interactivity, whatever else you
+might think of!)
 
   1 - Google's results page, regardless of what's searched, the page is always left-aligned. I believe it appear more elegent if it was centered.
   2 - LBCC's login opens to many tabs to reach our destination. I would like to know why and could it be modified so that user simple enters username and password information, and loads on the same tab.
