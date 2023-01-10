@@ -2,7 +2,7 @@
 loads quickly or slowly considering the data on the page, fun or frustrating, flashy or boring, cute or dreadful, great or poor interactivity, whatever else you
 might think of!)
 
-- Google's results page (https://www.google.com/), regardless of what's searched, the page is always left-aligned. I believe it appear more elegent if it was centered.
+- Google's results page (https://www.google.com/), regardless of what's searched, the page is always left-aligned. I believe it would be more elegent if it was centered.
 - LBCC's login procedure (https://www.linnbenton.edu/) opens to many tabs to reach our destination. I would like to know why and could it be modified so that user simple enters username and password
 information, and loads on the same tab.
 - Canvas's course's navigation menu (https://canvas.instructure.com/login/canvas) is at an odd location (upper-left). The 3-horizontal, as a user means a hiden menu is there, should be relocated at top-right instead of
