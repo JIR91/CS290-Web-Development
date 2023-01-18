@@ -1,0 +1,1 @@
+This directory contains relevent file(s) for my first developed website. The task is to experiment with a variety of elements in the attempt to learn html. Viewer be warned, this is not perfect and is subject to change.
