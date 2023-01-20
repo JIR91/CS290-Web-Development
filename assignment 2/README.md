@@ -1,0 +1,2 @@
+This directory contains my second website. The site is mean to be less flashy then last, but more formal. 
+My goal for this assignment is to familiarize myself with css by implementing as many CSS properties within the instructions.
