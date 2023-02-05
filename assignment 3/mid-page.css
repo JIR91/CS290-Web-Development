@@ -1,0 +1,22 @@
+div.mid-img {
+    background-image: url(texture-2.1.jpg);
+    background-size: auto;
+    margin: 0%;
+    padding-bottom: 50px;
+    height: 1000px;
+}
+
+.container {
+    padding-left: 10%;
+    padding-top: 50px;
+    width: 80%;
+}
+
+.text-box {
+    border: 15px solid white;
+    border-left: 5%;
+}
+
+.scroll-box {
+    border: 15px solid lightgrey;
+}

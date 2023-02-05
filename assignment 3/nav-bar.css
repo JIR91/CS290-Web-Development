@@ -1,0 +1,36 @@
+/* nav{
+} */
+a.menu-button-item {
+    color: rgb(38, 38, 38);
+    float: left;
+    padding: 0px 8px 0px 8px;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+a.user {
+    float: right;
+    padding-right: 25px;
+}
+
+a:hover {
+    background-color: rgb(93, 153, 93);
+}
+
+div.strip-out {
+    border: 2px solid black;
+    padding: 15px 0px 15px 0px;
+    background-color: rgb(67, 131, 67);
+    text-align: center;
+    overflow: auto;
+}
+
+div.inner {
+    padding-left: 38%;
+}
+
+div.bck-img {
+    background-image: url(grass.png);
+    background-size: 20% 100%;
+}
+
