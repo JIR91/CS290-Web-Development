@@ -6,6 +6,7 @@ a.menu-button-item {
     padding: 0px 8px 0px 8px;
     text-decoration: none;
     font-variant: small-caps;
+    /* padding-left: inherit; */
 }
 
 a.user {
@@ -18,15 +19,16 @@ a:hover {
 }
 
 div.strip-out {
-    border: 2px solid black;
+    border: 3px solid black;
     padding: 15px 0px 15px 0px;
     background-color: rgb(67, 131, 67);
     text-align: center;
     overflow: auto;
+    padding-left: 38%;
 }
 
 div.inner {
-    padding-left: 38%;
+    text-align: inherit;
 }
 
 div.bck-img {

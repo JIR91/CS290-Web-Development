@@ -1,20 +1,23 @@
 div.mid-img {
     background-image: url(texture-2.1.jpg);
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0%;
-    padding-bottom: 50px;
-    height: 1000px;
+    /* padding-bottom: 500px; */
+    height: 2050px;
 }
 
 .container {
-    padding-left: 10%;
-    padding-top: 50px;
+    padding: 100px 10% 100px 10%;
+    /* padding-left: 10%; */
+    /* padding-top: 50px; */
     width: 80%;
 }
 
 .text-box {
     border: 15px solid white;
-    border-left: 5%;
+    /* border-left: 5%; */
+    padding: inherit;
 }
 
 .scroll-box {
