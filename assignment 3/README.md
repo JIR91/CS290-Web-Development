@@ -1,8 +1,10 @@
 Assignment 3 (continue using more advance HTML and CSS).
 
+MAIN FILE: site3.html
+
 My understanding of the instructions:
 1. Create or continue design for web app,
-2. that attempts to implement additional CSS properties such as
+2. then attempts to implement additional CSS properties such as
   - background color, 
   - background image,
   - overflow,
@@ -26,7 +28,7 @@ My understanding of the instructions:
   - sitemap,
   - search boxes
   
- Note: attempt's definition may differ among the class, try to include as many as possible, seeking progresssion. 
+Note: attempt's definition may differ among the class, try to include as many as possible, seeking progresssion. 
   
 Personal Goal
   - Create a new website that could be the base creation of my final website for the term. 
