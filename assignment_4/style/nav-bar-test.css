@@ -1,0 +1,97 @@
+.nav-bar {
+    border: 3px solid black;
+    padding: 25px 0px 25px 0px;
+    background-color: rgb(67, 131, 67);
+    position: relative;
+    overflow:visible;
+}
+
+.nav-bar a {
+    color: rgb(38, 38, 38);
+    float: left;
+    padding: 0px 8px 0px 8px;
+    text-decoration: none;
+    text-align: center;
+    /* font-variant: small-caps; */
+}
+
+.nav-center {
+    float:none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .bck-img {
+    background-image: url(image/grass.png);
+    background-size: 20% 100%;
+} */
+
+.nav-right {
+    float: right;
+    /* position: inherit; */
+    /* overflow: none; */
+    /* padding-bottom: -10; */
+    
+
+    /* margin-bottom: 100px; */
+    /* right: 100%; */
+    /* text-align: ; */
+
+    /* position:inherit; */
+    /* display: block; */
+    /* overflow: hidden; */
+}
+
+@media screen and (max-width: 950px) {
+    .nav-bar a, .nav-right{
+        float: none;
+        display: block;
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .nav-center{
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+}
+
+.dropdown-login{
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: burlywood;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.dropdown-login form{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-bar a:hover {
+    background-color: rgb(93, 153, 93);
+}
+
+.nav-right:hover .dropdown-login{
+    display: block;
+    /* background-color: blue; */
+}
+
+
