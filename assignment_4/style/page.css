@@ -1,17 +1,21 @@
-@import "nav-bar.css";
-@import "mid-page.css";
-
-
 body{
     background-color:rgb(255, 240, 252);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
     margin: 0%;
 }
+
 .top-pg-space{
     padding: 90px;
     background-color: lightskyblue;
 }
+
 .mid-pag-space{
     padding: 900px 0px 900px 0px;
 }
+
+#sticky-menu{
+    position: sticky;
+    top: 0;
+}
+

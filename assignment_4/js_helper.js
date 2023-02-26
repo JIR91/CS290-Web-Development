@@ -1,37 +1,29 @@
+const div = document.querySelector('.nav-right');
+const ele = document.querySelector('.login')
+
+ele.addEventListener('click', function() {
+    ele.classList.add('active');
+})
+
+document.addEventListener('click', function(event){
+    if (!div.contains(event.target)){
+        ele.classList.remove('active');
+    }
+})
+
 function load_login_page(){
     window.location.href='page/login.html';
-    alert('Loading New Account Creation Page.. :)')
+    alert('Loading New Account Creation Page.. :)');
+    play()
+}
+
+function play(){
     console.log("Page loaded.");
-    console.log("Why does this not appear...");
+    console.log("Welcome to the New Acount/Login Page...");
 }
 
-// let delima = document.addEventListener('')
-var delima = document.querySelector('.nav-right');
-console.log(delima)
-
-delima.addEventListener('click', keep_open());
-
-function keep_open() {
-    console.log('mouse out')
-}
-
-// function keep_open(){
-//     var delima = document.getElementById('typing_check');
-//     console.log(delima);
-
-//     if (delima = 'INPUT'){
-//         // document.querySelector('.dropdown-login').classList.toggle('show');
-//         document.getElementById('typing_check').style.display = 'block';
-//     }else{
-//         document.getElementById('typing_check').style.display = 'none';
-//     }
-// }
-
-// var inputs = document.querySelectorAll("");
-
-// for (var i = 0; i < inputs.length; i++) {
-//     inputs[i].addEventListener("focus", function(event) {
-//         event.stopPropagation();
-//         console.log('here')
-//     });
-// }
+window.matchMedia(`(max-width: 1040px)`).addEventListener("change", function(event){
+    if (event.matches) {
+        console.log("will be handling sandwich menu here as a click toggle");
+    }
+})

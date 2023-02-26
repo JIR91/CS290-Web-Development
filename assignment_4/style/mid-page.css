@@ -11,6 +11,7 @@
 .container{
     padding: 50px 10% 50px 10%;
     width: 80%;
+    /* vertical-align: middle; */
 }
 
 .container p{
