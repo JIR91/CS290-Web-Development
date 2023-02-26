@@ -1,36 +1,7 @@
-Assignment 3 (continue using more advance HTML and CSS).
+Assignment 4 (continuation of assignment 3)
 
-MAIN FILE: main_site.html
+Assignment 3's website was used as a skeleton to implement more CSS properties (to further satisfy assignment 3 grade requirements) in assignment 4's website, and includes a ".js" file with some Javascript implementation.
 
-My understanding of the instructions:
-1. Create or continue design for web app,
-2. then attempts to implement additional CSS properties such as
-  - background color, 
-  - background image,
-  - overflow,
-  - box sizing,
-  - vendor prefix properties,
-  - float,
-  - inheritance,
-  - clear,
-  - collapsed containers (clearfix and overflow),
-  - position,
-  - z-index,
-  - display, 
-  - fixed-width layout,
-  - fluid layout,
-  - and responsive layout,
-  - @media query,
-  - viewport, 
-  - navigation list vertical and horizontal,
-  - breadcrumbs,
-  - drop down menu, 
-  - sitemap,
-  - search boxes
-  
-Note: attempt's definition may differ among the class, try to include as many as possible, seeking progresssion. 
-  
-Personal Goal
-  - Create a new website that could be the base creation of my final website for the term. 
-  - Would include room for groth of addition codmetics and/or functionalities, 
-  but has the possibility of changing along the way.
+Current State: Links to subpages work exept Login tab when px < 1040 (might have to check on that), when px > 1040 Login dropdown appears, in dropdown "create accout" uses JS to open "login.html".
+
+Current Goal: Using js to get the dropdown to remain visible when user clicks on text box, clicking outside of ".dropdown-login" colapses dropdown, if possible. Once or if I move on, I'll continue on to create function in JS to take/read/modify username and password given after user selects 'LOGIN' button.
