@@ -27,3 +27,9 @@ window.matchMedia(`(max-width: 1040px)`).addEventListener("change", function(eve
         console.log("will be handling sandwich menu here as a click toggle");
     }
 })
+
+function dd_toggle(){
+    var dd_ele = document.getElementById('toggle-target');
+    dd_ele.classList.toggle('dd-hide');
+    console.log('button test')
+}
