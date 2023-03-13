@@ -1,0 +1,26 @@
+.mid-page{
+    /* background-image: url(image/texture-2.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    color: white;
+    background-color: rgb(149, 87, 0);
+    margin: 0%;
+}
+
+.container{
+    padding: 50px 10% 50px 10%;
+    width: 80%;
+    /* vertical-align: middle; */
+}
+
+.container p{
+    border: 15px solid white;
+    padding: inherit;
+    background-color: black;
+}
+
+.scroll-box{
+    border: 15px solid lightgrey;
+    padding: 3% 1% 3% 1%;
+}
